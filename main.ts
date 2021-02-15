@@ -41,7 +41,7 @@ mySprite = sprites.create(img`
     . . . . . 2 . . 2 . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
-controller.moveSprite(mySprite, 150, 150)
+controller.moveSprite(mySprite, 50, 50)
 scene.setBackgroundColor(11)
 tiles.setTilemap(tilemap`level6`)
 tiles.placeOnRandomTile(mySprite, assets.tile`myTile7`)
